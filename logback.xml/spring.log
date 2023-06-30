@@ -1,0 +1,318 @@
+2023-06-24T09:42:53.260+04:00  INFO 20052 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Starting FmYprojectApplication using Java 17.0.6 with PID 20052 (C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes started by ruhuseyn in C:\Users\ruhuseyn\Downloads\FMYproject)
+2023-06-24T09:42:53.265+04:00  INFO 20052 --- [main] m.fmy.FMYproject.FmYprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-24T09:42:54.417+04:00  INFO 20052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-24T09:42:54.642+04:00  INFO 20052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 207 ms. Found 1 JPA repository interfaces.
+2023-06-24T09:42:55.770+04:00  INFO 20052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-24T09:42:55.801+04:00  INFO 20052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-24T09:42:55.802+04:00  INFO 20052 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-24T09:42:56.016+04:00  INFO 20052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-24T09:42:56.016+04:00  INFO 20052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2672 ms
+2023-06-24T09:42:56.308+04:00  INFO 20052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-24T09:42:56.403+04:00  INFO 20052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-24T09:42:56.407+04:00  INFO 20052 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-24T09:42:56.671+04:00  INFO 20052 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:42:56.919+04:00  INFO 20052 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-24T09:42:56.943+04:00  INFO 20052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-24T09:42:57.268+04:00  INFO 20052 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57cabdc3
+2023-06-24T09:42:57.271+04:00  INFO 20052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-24T09:42:57.324+04:00  INFO 20052 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@30508066
+2023-06-24T09:42:57.700+04:00  INFO 20052 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:42:58.479+04:00  INFO 20052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-24T09:42:58.551+04:00  INFO 20052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:42:58.940+04:00  WARN 20052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-24T09:42:59.385+04:00  INFO 20052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-24T09:42:59.396+04:00  INFO 20052 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Started FmYprojectApplication in 6.843 seconds (process running for 7.64)
+2023-06-24T09:43:50.430+04:00  INFO 20052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:43:50.433+04:00  INFO 20052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-24T09:43:50.437+04:00  INFO 20052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-24T09:43:55.509+04:00  INFO 15280 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Starting FmYprojectApplication using Java 17.0.6 with PID 15280 (C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes started by ruhuseyn in C:\Users\ruhuseyn\Downloads\FMYproject)
+2023-06-24T09:43:55.513+04:00  INFO 15280 --- [main] m.fmy.FMYproject.FmYprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-24T09:43:56.436+04:00  INFO 15280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-24T09:43:56.527+04:00  INFO 15280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2023-06-24T09:43:57.358+04:00  INFO 15280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-24T09:43:57.370+04:00  INFO 15280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-24T09:43:57.370+04:00  INFO 15280 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-24T09:43:57.538+04:00  INFO 15280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-24T09:43:57.538+04:00  INFO 15280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1951 ms
+2023-06-24T09:43:57.767+04:00  INFO 15280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-24T09:43:57.857+04:00  INFO 15280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-24T09:43:57.860+04:00  INFO 15280 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-24T09:43:58.061+04:00  INFO 15280 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:43:58.242+04:00  INFO 15280 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-24T09:43:58.260+04:00  INFO 15280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-24T09:43:58.551+04:00  INFO 15280 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48e41b5d
+2023-06-24T09:43:58.553+04:00  INFO 15280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-24T09:43:58.611+04:00  INFO 15280 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@2fde9469
+2023-06-24T09:43:58.932+04:00  INFO 15280 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:43:59.760+04:00  INFO 15280 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-24T09:43:59.802+04:00  INFO 15280 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:44:00.176+04:00  WARN 15280 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-24T09:44:00.667+04:00  INFO 15280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-24T09:44:00.679+04:00  INFO 15280 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Started FmYprojectApplication in 5.732 seconds (process running for 6.253)
+2023-06-24T09:44:20.225+04:00  INFO 15280 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:44:20.227+04:00  INFO 15280 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-24T09:44:20.231+04:00  INFO 15280 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-24T09:44:37.237+04:00  INFO 7936 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Starting FmYprojectApplication using Java 17.0.6 with PID 7936 (C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes started by ruhuseyn in C:\Users\ruhuseyn\Downloads\FMYproject)
+2023-06-24T09:44:37.240+04:00  INFO 7936 --- [main] m.fmy.FMYproject.FmYprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-24T09:44:38.196+04:00  INFO 7936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-24T09:44:38.290+04:00  INFO 7936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2023-06-24T09:44:39.133+04:00  INFO 7936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-24T09:44:39.153+04:00  INFO 7936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-24T09:44:39.154+04:00  INFO 7936 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-24T09:44:39.426+04:00  INFO 7936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-24T09:44:39.426+04:00  INFO 7936 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2094 ms
+2023-06-24T09:44:39.669+04:00  INFO 7936 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-24T09:44:39.733+04:00  INFO 7936 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-24T09:44:39.738+04:00  INFO 7936 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-24T09:44:39.909+04:00  INFO 7936 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:44:40.066+04:00  INFO 7936 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-24T09:44:40.079+04:00  INFO 7936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-24T09:44:40.315+04:00  INFO 7936 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50cdfafa
+2023-06-24T09:44:40.319+04:00  INFO 7936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-24T09:44:40.370+04:00  INFO 7936 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@72c4a3aa
+2023-06-24T09:44:40.691+04:00  INFO 7936 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:44:41.905+04:00  INFO 7936 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-24T09:44:41.970+04:00  INFO 7936 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:44:41.983+04:00  WARN 7936 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes\millisoft\fmy\FMYproject\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-24T09:44:41.983+04:00  INFO 7936 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:44:41.992+04:00  INFO 7936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-24T09:44:42.002+04:00  INFO 7936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-24T09:44:42.007+04:00  INFO 7936 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-24T09:44:42.047+04:00  INFO 7936 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-24T09:44:42.126+04:00 ERROR 7936 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in millisoft.fmy.FMYproject.controller.UserController required a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' in your configuration.
+
+2023-06-24T09:48:44.069+04:00  INFO 24304 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Starting FmYprojectApplication using Java 17.0.6 with PID 24304 (C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes started by ruhuseyn in C:\Users\ruhuseyn\Downloads\FMYproject)
+2023-06-24T09:48:44.076+04:00  INFO 24304 --- [main] m.fmy.FMYproject.FmYprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-24T09:48:45.055+04:00  INFO 24304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-24T09:48:45.158+04:00  INFO 24304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2023-06-24T09:48:45.977+04:00  INFO 24304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-24T09:48:45.993+04:00  INFO 24304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-24T09:48:45.994+04:00  INFO 24304 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-24T09:48:46.157+04:00  INFO 24304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-24T09:48:46.158+04:00  INFO 24304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2010 ms
+2023-06-24T09:48:46.381+04:00  INFO 24304 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-24T09:48:46.527+04:00  INFO 24304 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-24T09:48:46.530+04:00  INFO 24304 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-24T09:48:46.772+04:00  INFO 24304 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:48:46.983+04:00  INFO 24304 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-24T09:48:47.015+04:00  INFO 24304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-24T09:48:47.302+04:00  INFO 24304 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5faeeb56
+2023-06-24T09:48:47.304+04:00  INFO 24304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-24T09:48:47.378+04:00  INFO 24304 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@34f7b44f
+2023-06-24T09:48:47.722+04:00  INFO 24304 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:48:48.597+04:00  INFO 24304 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-24T09:48:48.655+04:00  INFO 24304 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:48:48.729+04:00  WARN 24304 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes\millisoft\fmy\FMYproject\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-24T09:48:48.730+04:00  INFO 24304 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:48:48.742+04:00  INFO 24304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-24T09:48:48.755+04:00  INFO 24304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-24T09:48:48.762+04:00  INFO 24304 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-24T09:48:48.794+04:00  INFO 24304 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-24T09:48:48.839+04:00 ERROR 24304 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in millisoft.fmy.FMYproject.controller.UserController required a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' in your configuration.
+
+2023-06-24T09:50:53.662+04:00  INFO 25196 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Starting FmYprojectApplication using Java 17.0.6 with PID 25196 (C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes started by ruhuseyn in C:\Users\ruhuseyn\Downloads\FMYproject)
+2023-06-24T09:50:53.665+04:00  INFO 25196 --- [main] m.fmy.FMYproject.FmYprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-24T09:50:54.508+04:00  INFO 25196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-24T09:50:54.578+04:00  INFO 25196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2023-06-24T09:50:55.302+04:00  INFO 25196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-24T09:50:55.314+04:00  INFO 25196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-24T09:50:55.315+04:00  INFO 25196 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-24T09:50:55.485+04:00  INFO 25196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-24T09:50:55.487+04:00  INFO 25196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1760 ms
+2023-06-24T09:50:55.686+04:00  INFO 25196 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-24T09:50:55.743+04:00  INFO 25196 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-24T09:50:55.745+04:00  INFO 25196 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-24T09:50:55.908+04:00  INFO 25196 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:50:56.066+04:00  INFO 25196 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-24T09:50:56.087+04:00  INFO 25196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-24T09:50:56.379+04:00  INFO 25196 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@49232c6f
+2023-06-24T09:50:56.382+04:00  INFO 25196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-24T09:50:56.485+04:00  INFO 25196 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@7dbae40
+2023-06-24T09:50:56.749+04:00  INFO 25196 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:50:57.583+04:00  INFO 25196 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-24T09:50:57.647+04:00  INFO 25196 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:50:57.660+04:00  WARN 25196 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes\millisoft\fmy\FMYproject\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-24T09:50:57.661+04:00  INFO 25196 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:50:57.666+04:00  INFO 25196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-24T09:50:57.672+04:00  INFO 25196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-24T09:50:57.677+04:00  INFO 25196 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-24T09:50:57.691+04:00  INFO 25196 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-24T09:50:57.721+04:00 ERROR 25196 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in millisoft.fmy.FMYproject.controller.UserController required a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' in your configuration.
+
+2023-06-24T09:52:57.810+04:00  INFO 20372 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Starting FmYprojectApplication using Java 17.0.6 with PID 20372 (C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes started by ruhuseyn in C:\Users\ruhuseyn\Downloads\FMYproject)
+2023-06-24T09:52:57.815+04:00  INFO 20372 --- [main] m.fmy.FMYproject.FmYprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-24T09:52:58.636+04:00  INFO 20372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-24T09:52:58.720+04:00  INFO 20372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2023-06-24T09:52:59.423+04:00  INFO 20372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-24T09:52:59.436+04:00  INFO 20372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-24T09:52:59.436+04:00  INFO 20372 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-24T09:52:59.523+04:00  INFO 20372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-24T09:52:59.523+04:00  INFO 20372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1650 ms
+2023-06-24T09:52:59.697+04:00  INFO 20372 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-24T09:52:59.775+04:00  INFO 20372 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-24T09:52:59.778+04:00  INFO 20372 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-24T09:53:00.008+04:00  INFO 20372 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:53:00.223+04:00  INFO 20372 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-24T09:53:00.247+04:00  INFO 20372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-24T09:53:00.469+04:00  INFO 20372 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d7cac24
+2023-06-24T09:53:00.470+04:00  INFO 20372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-24T09:53:00.534+04:00  INFO 20372 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@687eb455
+2023-06-24T09:53:00.785+04:00  INFO 20372 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:53:01.510+04:00  INFO 20372 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-24T09:53:01.617+04:00  INFO 20372 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:53:01.638+04:00  WARN 20372 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes\millisoft\fmy\FMYproject\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-24T09:53:01.639+04:00  INFO 20372 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:53:01.648+04:00  INFO 20372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-24T09:53:01.657+04:00  INFO 20372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-24T09:53:01.662+04:00  INFO 20372 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-24T09:53:01.691+04:00  INFO 20372 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-24T09:53:01.731+04:00 ERROR 20372 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in millisoft.fmy.FMYproject.controller.UserController required a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' in your configuration.
+
+2023-06-24T09:53:08.694+04:00  INFO 14764 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Starting FmYprojectApplication using Java 17.0.6 with PID 14764 (C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes started by ruhuseyn in C:\Users\ruhuseyn\Downloads\FMYproject)
+2023-06-24T09:53:08.698+04:00  INFO 14764 --- [main] m.fmy.FMYproject.FmYprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-24T09:53:09.322+04:00  INFO 14764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-24T09:53:09.377+04:00  INFO 14764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-06-24T09:53:10.083+04:00  INFO 14764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-24T09:53:10.098+04:00  INFO 14764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-24T09:53:10.099+04:00  INFO 14764 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-24T09:53:10.185+04:00  INFO 14764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-24T09:53:10.185+04:00  INFO 14764 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1443 ms
+2023-06-24T09:53:10.574+04:00  INFO 14764 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-24T09:53:10.685+04:00  INFO 14764 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-24T09:53:10.688+04:00  INFO 14764 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-24T09:53:10.885+04:00  INFO 14764 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:53:11.085+04:00  INFO 14764 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-24T09:53:11.113+04:00  INFO 14764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-24T09:53:11.292+04:00  INFO 14764 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4466cf5d
+2023-06-24T09:53:11.294+04:00  INFO 14764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-24T09:53:11.360+04:00  INFO 14764 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@2fdf22f7
+2023-06-24T09:53:11.584+04:00  INFO 14764 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:53:12.303+04:00  INFO 14764 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-24T09:53:12.411+04:00  INFO 14764 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:53:12.434+04:00  WARN 14764 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes\millisoft\fmy\FMYproject\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-24T09:53:12.435+04:00  INFO 14764 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:53:12.440+04:00  INFO 14764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-24T09:53:12.447+04:00  INFO 14764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-24T09:53:12.451+04:00  INFO 14764 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-24T09:53:12.467+04:00  INFO 14764 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-24T09:53:12.498+04:00 ERROR 14764 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in millisoft.fmy.FMYproject.controller.UserController required a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' in your configuration.
+
+2023-06-24T09:56:46.774+04:00  INFO 4748 --- [main] m.fmy.FMYproject.FmYprojectApplication   : Starting FmYprojectApplication using Java 17.0.6 with PID 4748 (C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes started by ruhuseyn in C:\Users\ruhuseyn\Downloads\FMYproject)
+2023-06-24T09:56:46.779+04:00  INFO 4748 --- [main] m.fmy.FMYproject.FmYprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-24T09:56:47.817+04:00  INFO 4748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-24T09:56:47.928+04:00  INFO 4748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+2023-06-24T09:56:48.790+04:00  INFO 4748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-24T09:56:48.804+04:00  INFO 4748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-24T09:56:48.805+04:00  INFO 4748 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-24T09:56:48.969+04:00  INFO 4748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-24T09:56:48.970+04:00  INFO 4748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2127 ms
+2023-06-24T09:56:49.217+04:00  INFO 4748 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-24T09:56:49.303+04:00  INFO 4748 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-24T09:56:49.305+04:00  INFO 4748 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-24T09:56:49.510+04:00  INFO 4748 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:56:49.685+04:00  INFO 4748 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-24T09:56:49.719+04:00  INFO 4748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-24T09:56:50.139+04:00  INFO 4748 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fdd97c1
+2023-06-24T09:56:50.141+04:00  INFO 4748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-24T09:56:50.218+04:00  INFO 4748 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@25a5c8e
+2023-06-24T09:56:50.582+04:00  INFO 4748 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-24T09:56:51.463+04:00  INFO 4748 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-24T09:56:51.517+04:00  INFO 4748 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:56:51.531+04:00  WARN 4748 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [C:\Users\ruhuseyn\Downloads\FMYproject\FMYproject\target\classes\millisoft\fmy\FMYproject\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-24T09:56:51.532+04:00  INFO 4748 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-24T09:56:51.536+04:00  INFO 4748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-24T09:56:51.543+04:00  INFO 4748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-24T09:56:51.545+04:00  INFO 4748 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-24T09:56:51.560+04:00  INFO 4748 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-24T09:56:51.587+04:00 ERROR 4748 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in millisoft.fmy.FMYproject.controller.UserController required a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'millisoft.fmy.FMYproject.serviceImpl.UserServiceImpl' in your configuration.
+
