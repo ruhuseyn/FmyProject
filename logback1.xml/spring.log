@@ -446,3 +446,7 @@ java.util.NoSuchElementException: No value present
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
+2023-07-01T01:02:42.854+04:00  WARN 3528 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m57s56ms292µs900ns).
+2023-07-01T01:02:45.634+04:00  INFO 3528 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-01T01:02:45.698+04:00  INFO 3528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-01T01:02:45.698+04:00  INFO 3528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
